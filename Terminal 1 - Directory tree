@@ -1,0 +1,82 @@
+➜  ~ pwd
+/home/makrmeen
+➜  ~ cd ..
+➜  /home pwd
+/home
+➜  /home ls
+invt  makrmeen
+➜  /home cd ..
+➜  / pwd
+/
+➜  / cd
+➜  ~ ls
+Desktop    java_error_in_webstorm_24792.log  Public     Videos
+Documents  Music                             snap       WebstormProjects
+Downloads  Pictures                          Templates
+➜  ~ pwd
+/home/makrmeen
+➜  ~ ls
+Desktop    java_error_in_webstorm_24792.log  Public     Videos
+Documents  Music                             snap       WebstormProjects
+Downloads  Pictures                          Templates
+➜  ~ cd ..
+➜  /home ls
+invt  makrmeen
+➜  /home cd downlads
+cd: no such file or directory: downlads
+➜  /home ls
+invt  makrmeen
+➜  /home cd ..
+➜  / cd home
+➜  /home cd downloads
+cd: no such file or directory: downloads
+➜  /home cd/Downloads
+zsh: no such file or directory: cd/Downloads
+➜  /home cd ..
+➜  / cd Downloads
+cd: no such file or directory: Downloads
+➜  / cd
+➜  ~ ter
+zsh: command not found: ter
+➜  ~ prompt
+zsh: command not found: prompt
+➜  ~ ls
+Desktop    java_error_in_webstorm_24792.log  Public     Videos
+Documents  Music                             snap       WebstormProjects
+Downloads  Pictures                          Templates
+➜  ~ ls -a
+.                                 .npm
+..                                .oh-my-zsh
+.angular-config.json              .pam_environment
+.bash_history                     Pictures
+.bash_logout                      .pki
+.bashrc                           .profile
+.cache                            Public
+.config                           .shell.pre-oh-my-zsh
+Desktop                           snap
+Documents                         .ssh
+Downloads                         .sudo_as_admin_successful
+.gitconfig                        Templates
+.gnome                            .thunderbird
+.gnupg                            Videos
+.idea                             .vscode
+.java                             WebstormProjects
+java_error_in_webstorm_24792.log  .wget-hsts
+.local                            .zcompdump
+.mozilla                          .zcompdump-mk-ubuntu-5.8
+Music                             .zsh_history
+.mysql                            .zshrc
+➜  ~ ls/bin
+zsh: no such file or directory: ls/bin
+➜  ~ ls
+Desktop    java_error_in_webstorm_24792.log  Public     Videos
+Documents  Music                             snap       WebstormProjects
+Downloads  Pictures                          Templates
+➜  ~ pwd
+/home/makrmeen
+➜  ~ cd docyments
+cd: no such file or directory: docyments
+➜  ~ cd Documents
+➜  Documents 
+➜  Documents 
+➜  Documents 
