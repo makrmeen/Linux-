@@ -1,0 +1,323 @@
+➜  ~ pwd
+/home/makrmeen
+➜  ~ cd ..
+➜  /home pwd
+/home
+➜  /home ls
+invt  makrmeen
+➜  /home cd ..
+➜  / pwd
+/
+➜  / cd
+➜  ~ ls
+Desktop    java_error_in_webstorm_24792.log  Public     Videos
+Documents  Music                             snap       WebstormProjects
+Downloads  Pictures                          Templates
+➜  ~ pwd
+/home/makrmeen
+➜  ~ ls
+Desktop    java_error_in_webstorm_24792.log  Public     Videos
+Documents  Music                             snap       WebstormProjects
+Downloads  Pictures                          Templates
+➜  ~ cd ..
+➜  /home ls
+invt  makrmeen
+➜  /home cd downlads
+cd: no such file or directory: downlads
+➜  /home ls
+invt  makrmeen
+➜  /home cd ..
+➜  / cd home
+➜  /home cd downloads
+cd: no such file or directory: downloads
+➜  /home cd/Downloads
+zsh: no such file or directory: cd/Downloads
+➜  /home cd ..
+➜  / cd Downloads
+cd: no such file or directory: Downloads
+➜  / cd
+➜  ~ ter
+zsh: command not found: ter
+➜  ~ prompt
+zsh: command not found: prompt
+➜  ~ ls
+Desktop    java_error_in_webstorm_24792.log  Public     Videos
+Documents  Music                             snap       WebstormProjects
+Downloads  Pictures                          Templates
+➜  ~ ls -a
+.                                 .npm
+..                                .oh-my-zsh
+.angular-config.json              .pam_environment
+.bash_history                     Pictures
+.bash_logout                      .pki
+.bashrc                           .profile
+.cache                            Public
+.config                           .shell.pre-oh-my-zsh
+Desktop                           snap
+Documents                         .ssh
+Downloads                         .sudo_as_admin_successful
+.gitconfig                        Templates
+.gnome                            .thunderbird
+.gnupg                            Videos
+.idea                             .vscode
+.java                             WebstormProjects
+java_error_in_webstorm_24792.log  .wget-hsts
+.local                            .zcompdump
+.mozilla                          .zcompdump-mk-ubuntu-5.8
+Music                             .zsh_history
+.mysql                            .zshrc
+➜  ~ ls/bin
+zsh: no such file or directory: ls/bin
+➜  ~ ls
+Desktop    java_error_in_webstorm_24792.log  Public     Videos
+Documents  Music                             snap       WebstormProjects
+Downloads  Pictures                          Templates
+➜  ~ pwd
+/home/makrmeen
+➜  ~ cd docyments
+cd: no such file or directory: docyments
+➜  ~ cd Documents
+➜  Documents 
+➜  Documents 
+➜  Documents 
+➜  Documents pwd
+/home/makrmeen/Documents
+➜  Documents cd .. 
+➜  ~ sudo apt-get install -y curl unzip
+
+[sudo] password for makrmeen: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+unzip is already the newest version (6.0-25ubuntu1).
+unzip set to manually installed.
+curl is already the newest version (7.68.0-1ubuntu2.4).
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+➜  ~ mkdr
+zsh: command not found: mkdr
+➜  ~ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+➜  ~ cd ..
+➜  /home mkdir quests
+
+mkdir: cannot create directory ‘quests’: Permission denied
+➜  /home cd
+➜  ~ 
+➜  ~ mkdir quests
+➜  ~ -p
+zsh: command not found: -p
+➜  ~ cd
+➜  ~ mkdir real/{terrestrial,gas-giants,dwarf-planets}
+mkdir: cannot create directory ‘real/terrestrial’: No such file or directory
+mkdir: cannot create directory ‘real/gas-giants’: No such file or directory
+mkdir: cannot create directory ‘real/dwarf-planets’: No such file or directory
+➜  ~ mkdir Wild
+➜  ~ Mkdir Wild/real
+zsh: command not found: Mkdir
+➜  ~ cd
+➜  ~ pwd
+/home/makrmeen
+➜  ~ mkdir -p quests/shell/vegetables quests/shell/fruits
+
+➜  ~  ~/quests/shell 
+➜  shell curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip\?raw\=true
+unzip planets.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   148  100   148    0     0   1973      0 --:--:-- --:--:-- --:--:--  1973
+100   159  100   159    0     0   1786      0 --:--:-- --:--:-- --:--:--  1786
+100  293k  100  293k    0     0  54887      0  0:00:05  0:00:05 --:--:-- 55520
+Archive:  planets.zip
+   creating: planets/
+  inflating: planets/mercury.jpeg    
+  inflating: planets/earth.jpeg      
+  inflating: planets/pluto.jpeg      
+  inflating: planets/arrakis.jpeg    
+  inflating: planets/jupiter.jpeg    
+  inflating: planets/venus.jpeg      
+  inflating: planets/mars.jpeg       
+  inflating: planets/cybertron.jpeg  
+  inflating: planets/coruscant.jpeg  
+  inflating: planets/uranus.jpeg     
+  inflating: planets/neptune.jpeg    
+  inflating: planets/saturn.jpeg     
+➜  shell /planets
+zsh: no such file or directory: /planets
+➜  shell ls
+fruits  planets  planets.zip  vegetables
+➜  shell 
+➜  shell cd planets
+➜  planets mkdir real/{terrestrial,gas-giants,dwarf-planets}
+mkdir: cannot create directory ‘real/terrestrial’: No such file or directory
+mkdir: cannot create directory ‘real/gas-giants’: No such file or directory
+mkdir: cannot create directory ‘real/dwarf-planets’: No such file or directory
+➜  planets mkdir [real, fictional, inhabited]
+zsh: bad pattern: [real,
+➜  planets mkdir real
+➜  planets mdir fictional
+Can't open /dev/fd0: No such file or directory
+Cannot initialize 'A:'
+➜  planets mkdir fictional
+➜  planets mkdir inhabited
+➜  planets mkdir real/{terrestrial,gas-giants,dwarf-planets}
+➜  planets cp mercury.jpeg/real
+cp: missing destination file operand after 'mercury.jpeg/real'
+Try 'cp --help' for more information.
+➜  planets cp mercury.jpeg -real
+cp: invalid option -- 'e'
+Try 'cp --help' for more information.
+➜  planets ls
+earth.jpeg    mars.jpeg     real
+fictional     mercury.jpeg  saturn.jpeg
+inhabited     neptune.jpeg  uranus.jpeg
+jupiter.jpeg  pluto.jpeg    venus.jpeg
+➜  planets mv -real
+mv: invalid option -- 'r'
+Try 'mv --help' for more information.
+➜  planets mv --earth.jpeg- real
+mv: unrecognized option '--earth.jpeg-'
+Try 'mv --help' for more information.
+➜  planets mv --help
+Usage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help     display this help and exit
+      --version  output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation at: <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+➜  planets mv [earth.jpeg] ..real
+zsh: no matches found: [earth.jpeg]
+➜  planets mv [earth.jpeg] ..real
+zsh: no matches found: [earth.jpeg]
+➜  planets mv earth.jpeg [real]
+zsh: no matches found: [real]
+➜  planets mv earth.jpeg real
+➜  planets mv {mars.jpeg, saturn.jpeg, neptune.jpeg} real
+zsh: parse error near `}'
+➜  planets mv jupiter.jpeg real
+➜  planets mv mars.jpeg real
+➜  planets mv [mars.jpeg, saturn.jpeg, neptune.jpeg] real
+zsh: bad pattern: [mars.jpeg,
+➜  planets mv mercury.jpeg neptune.jpeg venus.jpeg uranus.jpeg real
+➜  planets mv saturn.jpeg real
+➜  planets mv pluto.jpeg real/drwarf-planets
+➜  planets mv pluto.jpeg dwarf-planets
+mv: cannot stat 'pluto.jpeg': No such file or directory
+➜  planets mv pluto.jpeg x-special/nautilus-clipboard
+copy
+file:///home/makrmeen/quests/shell/planets/real/dwarf-planets
+
+mv: cannot stat 'pluto.jpeg': No such file or directory
+zsh: command not found: copy
+zsh: no such file or directory: file:///home/makrmeen/quests/shell/planets/real/dwarf-planets
+➜  planets mv pluto.jpeg dwarf-planets
+mv: cannot stat 'pluto.jpeg': No such file or directory
+➜  planets ls
+fictional  inhabited  real
+➜  planets cd shell
+cd: no such file or directory: shell
+➜  planets cd.. shell
+zsh: command not found: cd..
+➜  planets pwd
+/home/makrmeen/quests/shell/planets
+➜  planets shell
+zsh: command not found: shell
+➜  planets cd .. shell
+cd: string not in pwd: ..
+➜  planets rm pluto.jpeg
+rm: cannot remove 'pluto.jpeg': No such file or directory
+➜  planets real
+➜  real rm pluto.jpeg
+➜  real ls
+dwarf-planets  neptune.jpeg
+earth.jpeg     saturn.jpeg
+gas-giants     terrestrial
+jupiter.jpeg   uranus.jpeg
+mars.jpeg      venus.jpeg
+mercury.jpeg
+➜  real shell
+zsh: command not found: shell
+➜  real --
+zsh: command not found: --
+➜  real ls
+dwarf-planets  neptune.jpeg
+earth.jpeg     saturn.jpeg
+gas-giants     terrestrial
+jupiter.jpeg   uranus.jpeg
+mars.jpeg      venus.jpeg
+mercury.jpeg
+➜  real ls shell
+ls: cannot access 'shell': No such file or directory
+➜  real -p
+zsh: command not found: -p
+➜  real cd
+➜  ~ ls
+Desktop
+Documents
+Downloads
+java_error_in_webstorm_24792.log
+Music
+Pictures
+Public
+quests
+snap
+Templates
+Videos
+WebstormProjects
+Wild
+➜  ~ Shell
+zsh: command not found: Shell
+➜  ~ shell
+zsh: command not found: shell
+➜  ~ quests
+➜  quests ls
+shell
+➜  quests shell
+➜  shell ls
+fruits   planets.zip
+planets  vegetables
+➜  shell planets
+➜  planets ls
+fictional  inhabited  real
+➜  planets real
+➜  real ls
+dwarf-planets  neptune.jpeg
+earth.jpeg     saturn.jpeg
+gas-giants     terrestrial
+jupiter.jpeg   uranus.jpeg
+mars.jpeg      venus.jpeg
+mercury.jpeg
+➜  real cd
+➜  ~ 
