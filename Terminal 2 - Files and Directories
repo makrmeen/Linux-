@@ -321,3 +321,37 @@ mars.jpeg      venus.jpeg
 mercury.jpeg
 ➜  real cd
 ➜  ~ 
+find
+.
+./inhabited
+./inhabited/mars.jpeg
+./inhabited/uranus.jpeg
+./inhabited/saturn.jpeg
+./inhabited/mercury.jpeg
+./inhabited/jupiter.jpeg
+./inhabited/venus.jpeg
+./inhabited/neptune.jpeg
+./fictional
+./fictional/arrakis.jpeg
+./fictional/cybertron.jpeg
+./fictional/coruscant.jpeg
+./real
+./real/mars.jpeg
+./real/uranus.jpeg
+./real/saturn.jpeg
+./real/dwarf-planets
+./real/gas-giants
+./real/gas-giants/uranus.jpeg
+./real/gas-giants/saturn.jpeg
+./real/gas-giants/jupiter.jpeg
+./real/gas-giants/neptune.jpeg
+./real/mercury.jpeg
+./real/jupiter.jpeg
+./real/venus.jpeg
+./real/neptune.jpeg
+./real/terrestrial
+./real/terrestrial/mercury.jpeg
+./real/terrestrial/venus.jpeg
+./real/terrestrial/earth.jpeg
+./real/earth.jpeg
+➜  planets 
